@@ -1,0 +1,49 @@
+package OOP;
+
+public class Player {
+	
+	private  int id;
+	private  String name;
+	private int fScore;
+	private String password;
+	
+	
+	public Player(int id, String name,int fScore,String ps) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.fScore=fScore;
+		this.password=ps;
+	}
+
+	public  int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+
+	public  String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getfScore() {
+		return fScore;
+	}
+
+	public void setfScore(int fScore) {
+		this.fScore = fScore;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	
+	
+	
+
+	}
